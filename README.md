@@ -1,7 +1,7 @@
 # Beady Agency
 
 <p align="center">
-  <img src="svg/logo.svg" alt="esta imagem é a logo do portfólio" border="0">
+  <img src="svg/logo.svg" alt="esta imagem é a logo do portfólio" border="0" width="64px" height="59px">
 </p>
 
 ## 💡 Sobre
