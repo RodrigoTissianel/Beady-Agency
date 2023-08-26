@@ -32,15 +32,15 @@ body{
     position: relative;
     overflow-x: hidden;
 }
-body::-webkit-scrollbar{ // barra de rolagem no geral
+body::-webkit-scrollbar{ 
     width: 12px;
 }
 
-body::-webkit-scrollbar-track{ // trilho da barra de rolagem
+body::-webkit-scrollbar-track{ 
     background-color: transparent;
 } 
 
-body::-webkit-scrollbar-thumb{ // botão da barra de rolagem
+body::-webkit-scrollbar-thumb{ 
     background-color: $primary-normal;
     border-radius: 5px;
 } 
