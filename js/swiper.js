@@ -18,15 +18,13 @@ const swiper = new Swiper('.swiper1', {
         effect: 'slide',
         },
 
-        1280: {
+        768: {
         direction: 'horizontal',
         loop: false,
         speed: 400,
         slidesPerView: 2,
         spaceBetween: 0,
         effect: 'slide',
-        centeredSlides: true,
-        centeredSlidesBounds: true,
         },
 
         540: {

@@ -34,6 +34,7 @@ linkMobile.forEach((item)=>{
     item.addEventListener('click', ()=>{
         menuMobile.classList.remove('showmenu');
         bx.classList.toggle('active');
+        bxBar.classList.toggle('active')
     })
 })
 

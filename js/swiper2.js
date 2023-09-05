@@ -29,6 +29,24 @@ const swiper2 = new Swiper('.swiper2', {
         effect: 'slide',
         },
 
+        960: {
+        direction: 'horizontal',
+        loop: false,
+        speed: 400,
+        slidesPerView: 2.65,
+        spaceBetween: 22,
+        effect: 'slide',
+        },
+
+        768: {
+        direction: 'horizontal',
+        loop: false,
+        speed: 400,
+        slidesPerView: 2.3,
+        spaceBetween: 22,
+        effect: 'slide',
+        },
+
         540: {
         direction: 'horizontal',
         loop: false,

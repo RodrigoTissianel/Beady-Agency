@@ -61,7 +61,7 @@ $gutter: 24px;
         padding: 64px 48px;
     }
 
-    @include responsive(xs){
+    @include responsive(xxs){
       flex-direction: column;
       padding: 36px 24px;
     }
@@ -78,7 +78,7 @@ $gutter: 24px;
         padding: 64px 48px;
     }
 
-    @include responsive(xs){
+    @include responsive(xxs){
       flex-direction: column;
       padding: 36px 24px;
     }
@@ -309,7 +309,12 @@ $gutter: 24px;
       background-position: -200px center;
     }
 
-    @include responsive(xs){
+    @include responsive(s){
+      height: 580px;
+      background-position: -200px center;
+    }
+
+    @include responsive(xxs){
       height: 522px;
       background-position: -200px center;
     }
@@ -331,7 +336,14 @@ $gutter: 24px;
       left: 45px;
     }
 
-    @include responsive(xs){
+    @include responsive(s){
+      width: 300px;
+      height: 300px;
+      top: 80px;
+      left: 80px;
+    }
+
+    @include responsive(xxs){
       width: 158px;
       height: 158px;
       top: 105px;
@@ -357,7 +369,14 @@ $gutter: 24px;
       right: 0;
     }
 
-    @include responsive(xs){
+    @include responsive(s){
+      width: 200px;
+      height: 200px;
+      top: 250px;
+      right: 80px;
+    }
+
+    @include responsive(xxs){
       width: 106px;
       height: 106px;
       top: 184px;
@@ -380,7 +399,12 @@ $gutter: 24px;
     flex-direction: column;
     align-self: flex-end;
 
-    @include responsive(xs){
+    @include responsive(s){
+      transform: translate3d(-80px,0,0);
+      max-width: 340px;
+    }
+
+    @include responsive(xxs){
       transform: translate3d(0px,0,0);
       max-width: 340px;
     }
@@ -388,11 +412,24 @@ $gutter: 24px;
     h3{
       text-align: right;
       align-self: flex-end;
-      @include responsive(xs){
+      @include responsive(xxs){
         max-width: 195px;
         justify-self: flex-end;
       }
     }
+}
+
+.text-left{
+
+  @include responsive(s){
+    max-width: 500px;
+    transform: translate3d(80px,0 ,0);
+  }
+
+  @include responsive(xxs){
+    max-width: 500px;
+    transform: translate3d(0px,0 ,0);
+  }
 }
 
 .text-right{
@@ -408,7 +445,13 @@ $gutter: 24px;
   left: -100px;
   z-index: -3;
 
-  @include responsive(xs){
+  @include responsive(s){
+    width: 1441px;
+    top: 24px;
+    left: 0;
+  }
+
+  @include responsive(xxs){
     width: 1441px;
     top: -30px;
     left: 0;
@@ -425,7 +468,12 @@ $gutter: 24px;
       transform: translate3d( -126px, 77px,0);
     }
 
-    @include responsive(xs){
+    @include responsive(s){
+      text-align: start;
+      transform: translate3d(0,0,0);
+    }
+
+    @include responsive(xxs){
       text-align: start;
       transform: translate3d(0,0,0);
     }
@@ -433,7 +481,11 @@ $gutter: 24px;
     span{
       color: #D9D9D9;
 
-      @include responsive(xs){
+      @include responsive(s){
+        color: $gray-1;
+      }
+
+      @include responsive(xxs){
         color: $gray-1;
       }
     }
@@ -445,7 +497,11 @@ $gutter: 24px;
   align-items: flex-start;
   flex-direction: row;
 
-  @include responsive(xs){
+  @include responsive(s){
+    flex-direction: column-reverse;
+  }
+
+  @include responsive(xxs){
     flex-direction: column-reverse;
   }
 }
@@ -454,7 +510,12 @@ $gutter: 24px;
   max-width: 512px;
   margin-top: 120px;
 
-  @include responsive(xs){
+  @include responsive(s){
+    margin: 36px auto 0 auto;
+    
+  }
+
+  @include responsive(xxs){
     margin-top: 36px;
   }
 }
@@ -470,7 +531,12 @@ $gutter: 24px;
       height: 632px;
     }
 
-    @include responsive(xs){
+    @include responsive(s){
+      height: 520px;
+      
+    }
+
+    @include responsive(xxs){
       height: 293px;
     }
 }
@@ -486,8 +552,14 @@ $gutter: 24px;
       height: 421px;
       transform: translate3d(-56px, -16px, 0);
     }
+
+    @include responsive(s){
+      width: 503px;
+      height: 335px;
+      transform: translate3d(-48px, -0px, 0);
+    }
     
-    @include responsive(xs){
+    @include responsive(xxs){
       width: 283px;
       height: 188px;
       transform: translate3d(0, 32px, 0);
@@ -508,7 +580,14 @@ $gutter: 24px;
       left: -96px;
     }
 
-    @include responsive(xs){
+    @include responsive(s){
+      width: 345px;
+      height: auto;
+      bottom: 24px;
+      left: 150px;
+    }
+
+    @include responsive(xxs){
       width: 194px;
       height: 130px;
       bottom: 0;
@@ -524,7 +603,12 @@ $gutter: 24px;
   justify-content: flex-start;
   align-items: center;
 
-  @include responsive(xs){
+  @include responsive(s){
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @include responsive(xxs){
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -539,19 +623,25 @@ $gutter: 24px;
     max-width: 188px;
   }
 
-  @include responsive(xs){
+  @include responsive(s){
+    margin-right: 48px;
+    margin-top: 42px;
+    max-width: 188px;
+  }
+
+  @include responsive(xxs){
     margin-top: 42px;
     max-width: 188px;
   }
 
   &:nth-child(-n+2){
-    @include responsive(xs){
+    @include responsive(xxs){
       margin-top: 0;
     }
   }
 
   &:nth-child(-2n+6), &:nth-child(7){
-    @include responsive(xs){
+    @include responsive(xxs){
       margin-right: 0;
 
     }
@@ -572,7 +662,11 @@ $gutter: 24px;
     height: 1278px;
   }
 
-  @include responsive(xs){
+  @include responsive(s){
+    height: 1500px;
+  }
+
+  @include responsive(xxs){
     height: 1235px;
   }
 }
@@ -582,7 +676,7 @@ $gutter: 24px;
   justify-content: flex-start;
   align-items: center;
 
-  @include responsive(xs){
+  @include responsive(s){
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -615,7 +709,7 @@ $gutter: 24px;
     z-index: -1;
   }
 
-  @include responsive(xs){
+  @include responsive(s){
     margin-top: 12px;
     &:nth-child(-2n+6){
       transform: translate3d(0, 0, 0);
@@ -630,7 +724,7 @@ $gutter: 24px;
   margin-top: 115px;
   
 
-  @include responsive(xs){
+  @include responsive(xxs){
     flex-direction: column;
     margin-top: 0;
     div{
@@ -657,7 +751,13 @@ $gutter: 24px;
   background-repeat: no-repeat;
   background-size: cover;
 
-  @include responsive(xs){
+  @include responsive(s){
+    background-position: top right;
+    height: 870px;
+    width: 100%;
+  }
+
+  @include responsive(xxs){
     background-position: top right;
     height: 741px;
     width: 100%;
@@ -673,7 +773,13 @@ $gutter: 24px;
   left: -50px;
   z-index: -3;
 
-  @include responsive(xs){
+  @include responsive(s){
+    width: 1441px;
+    top: -245px;
+    left: 0;
+  }
+
+  @include responsive(xxs){
     width: 1441px;
     top: -190px;
     left: 0;
@@ -686,7 +792,7 @@ $gutter: 24px;
   font-size: 64px;
   line-height: 125%;
 
-  @include responsive(xs){
+  @include responsive(xxs){
     font-size: 32px;
     line-height: normal;
     margin-bottom: 16px;

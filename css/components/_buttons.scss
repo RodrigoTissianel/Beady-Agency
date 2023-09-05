@@ -53,6 +53,10 @@ a{
         }
     }
 
+    @include responsive(s){
+        margin-top: 36px;
+    }
+
     @include responsive(xs){
         max-width: 208px;
         padding: 12px 56px 12px 16px;

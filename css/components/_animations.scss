@@ -56,8 +56,12 @@
         animation: circle-move-l 12s ease infinite alternate;
     }
 
-    @include responsive(xs){
-        animation: circle-move-xs 12s ease infinite alternate;
+    @include responsive(s){
+        animation: circle-move-s 12s ease infinite alternate;
+    }
+
+    @include responsive(xxs){
+        animation: circle-move-xxs 12s ease infinite alternate;
     }
 }
 
@@ -84,11 +88,11 @@
         transform: translate3d(0,0,0);
     }
     100%{
-        transform: translate3d(100px, 50px, 0) ;
+        transform: translate3d(210px, 80px, 0) ;
     }
 }
 
-@keyframes circle-move-xs{
+@keyframes circle-move-xxs{
     0%{
         transform: translate3d(0,0,0);
     }
@@ -106,9 +110,12 @@
     @include responsive(l){
         animation: circle-move2-l 12s ease infinite alternate;
     }
+    @include responsive(s){
+        animation: circle-move2-s 12s ease infinite alternate;
+    }
 
-    @include responsive(xs){
-        animation: circle-move2-xs 12s ease infinite alternate;
+    @include responsive(xxs){
+        animation: circle-move2-xxs 12s ease infinite alternate;
     }
 }
 
@@ -131,7 +138,16 @@
     }
 }
 
-@keyframes circle-move2-xs{
+@keyframes circle-move2-s{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(-180px, -120px, 0) ;
+    }
+}
+
+@keyframes circle-move2-xxs{
     0%{
         transform: translate3d(0,0,0);
     }
