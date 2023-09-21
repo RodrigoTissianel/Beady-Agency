@@ -464,7 +464,7 @@ $gutter: 24px;
   overflow-x: hidden;
   position: absolute;
   top: 120px;
-  left: -100px;
+  left: -50px;
   z-index: -3;
 
   @include responsive(s){
@@ -817,7 +817,7 @@ $gutter: 24px;
   overflow-x: hidden;
   position: absolute;
   top: -222px;
-  left: -50px;
+  left: -100px;
   z-index: -3;
 
   @include responsive(s){
