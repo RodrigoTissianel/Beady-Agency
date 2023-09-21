@@ -7,6 +7,7 @@ function scrollHeader(){
 
     if (this.scrollY >= 50){
         header.classList.add('active-header');
+        console.log('funcionou');
     }
     else{
         header.classList.remove('active-header');

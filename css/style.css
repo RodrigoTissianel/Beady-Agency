@@ -7,7 +7,6 @@
 html {
   scroll-padding-top: 16px;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 .neon-yellow {
@@ -2182,7 +2181,7 @@ body::-webkit-scrollbar-thumb {
 }
 @media screen and (max-width: 960px) {
   .testimonial-container {
-    max-width: 270px;
+    max-width: 33.33%;
     max-height: 327px;
     padding: 32px;
     -webkit-backdrop-filter: blur(6px);
@@ -2620,6 +2619,11 @@ header {
     animation: circle-move-s 12s ease infinite alternate;
   }
 }
+@media screen and (max-width: 768px) {
+  .circle-hero-1 {
+    animation: circle-move-xs 12s ease infinite alternate;
+  }
+}
 @media screen and (max-width: 540px) {
   .circle-hero-1 {
     animation: circle-move-xxs 12s ease infinite alternate;
@@ -2650,6 +2654,14 @@ header {
     transform: translate3d(210px, 80px, 0);
   }
 }
+@keyframes circle-move-xs {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(160px, 60px, 0);
+  }
+}
 @keyframes circle-move-xxs {
   0% {
     transform: translate3d(0, 0, 0);
@@ -2671,6 +2683,11 @@ header {
 @media screen and (max-width: 960px) {
   .circle-hero-2 {
     animation: circle-move2-s 12s ease infinite alternate;
+  }
+}
+@media screen and (max-width: 768px) {
+  .circle-hero-2 {
+    animation: circle-move2-xs 12s ease infinite alternate;
   }
 }
 @media screen and (max-width: 540px) {
@@ -2700,7 +2717,15 @@ header {
     transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-180px, -120px, 0);
+    transform: translate3d(-140px, -120px, 0);
+  }
+}
+@keyframes circle-move2-xs {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-110px, -110px, 0);
   }
 }
 @keyframes circle-move2-xxs {

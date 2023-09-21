@@ -252,7 +252,7 @@
     border-radius: 20px;
 
     @include responsive(s){
-      max-width: 270px;
+      max-width: 33.33%;
       max-height: 327px;
       padding: 32px;
       backdrop-filter: blur(6px);
