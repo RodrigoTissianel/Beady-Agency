@@ -439,8 +439,24 @@ $gutter: 24px;
 // =========== SECTION ABOUT ============
 // ======================================
 .svg-squares-about{
-  width: 100%;
-  transform: scale(3.65);
+  width: 1441px;
+  transform: scale(1);
+
+  @include responsive(s){
+    width: 100%;
+    transform: scale(1.88);
+  }
+
+  @include responsive(xs){
+    width: 100%;
+    transform: scale(2.15);
+  }
+
+  @include responsive(xxs){
+    width: 100%;
+    transform: scale(2.7);
+  }
+  
 }
 
 .bg-squares-about{
@@ -452,12 +468,17 @@ $gutter: 24px;
   z-index: -3;
 
   @include responsive(s){
-    top: 24px;
+    top: 56px;
+    left: 0;
+  }
+
+  @include responsive(xs){
+    top: 60px;
     left: 0;
   }
 
   @include responsive(xxs){
-    top: -30px;
+    top: -34px;
     left: 0;
   }
 }
@@ -772,8 +793,23 @@ $gutter: 24px;
 // ============ SECTION QUOTE ===========
 // ======================================
 .svg-squares-quote{
-  width: 100%;
-  transform: scale(3.3);
+  width: 1441px;
+  transform: scale(1);
+
+  @include responsive(s){
+    width: 100%;
+    transform: scale(1.6);
+  }
+
+  @include responsive(xs){
+    width: 100%;
+    transform: scale(2.54);
+  }
+
+  @include responsive(xxs){
+    width: 100%;
+    transform: scale(2.7);
+  }
 }
 
 .bg-squares-quote{
@@ -785,12 +821,17 @@ $gutter: 24px;
   z-index: -3;
 
   @include responsive(s){
-    top: -245px;
+    top: -178px;
+    left: 0;
+  }
+
+  @include responsive(xs){
+    top: -165px;
     left: 0;
   }
 
   @include responsive(xxs){
-    top: -155px;
+    top: -185px;
     left: 0;
   }
 }
@@ -800,6 +841,12 @@ $gutter: 24px;
   text-align: center;
   font-size: 64px;
   line-height: 125%;
+
+  @include responsive(s){
+    font-size: 48px;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
 
   @include responsive(xxs){
     font-size: 32px;
