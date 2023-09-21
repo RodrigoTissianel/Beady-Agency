@@ -454,7 +454,7 @@ $gutter: 24px;
 
   @include responsive(xxs){
     width: 100%;
-    transform: scale(2.7);
+    transform: scale(3.3);
   }
   
 }
@@ -478,7 +478,7 @@ $gutter: 24px;
   }
 
   @include responsive(xxs){
-    top: -55px;
+    top: -10px;
     left: 0;
   }
 }
@@ -808,7 +808,7 @@ $gutter: 24px;
 
   @include responsive(xxs){
     width: 100%;
-    transform: scale(2.7);
+    transform: scale(3.3);
   }
 }
 
@@ -831,7 +831,7 @@ $gutter: 24px;
   }
 
   @include responsive(xxs){
-    top: -185px;
+    top: -155px;
     left: 0;
   }
 }

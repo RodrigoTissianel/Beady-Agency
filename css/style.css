@@ -471,7 +471,7 @@ html {
 @media screen and (max-width: 540px) {
   .svg-squares-about {
     width: 100%;
-    transform: scale(2.7);
+    transform: scale(3.3);
   }
 }
 
@@ -497,7 +497,7 @@ html {
 }
 @media screen and (max-width: 540px) {
   .bg-squares-about {
-    top: -55px;
+    top: -10px;
     left: 0;
   }
 }
@@ -840,7 +840,7 @@ html {
 @media screen and (max-width: 540px) {
   .svg-squares-quote {
     width: 100%;
-    transform: scale(2.7);
+    transform: scale(3.3);
   }
 }
 
@@ -866,7 +866,7 @@ html {
 }
 @media screen and (max-width: 540px) {
   .bg-squares-quote {
-    top: -185px;
+    top: -155px;
     left: 0;
   }
 }
