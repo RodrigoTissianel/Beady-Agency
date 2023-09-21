@@ -263,6 +263,10 @@ html {
      object-fit: cover;
 }
 
+.bg-squares {
+  width: 1441px;
+}
+
 .introduction {
   width: 100%;
   height: 100vh;
@@ -452,6 +456,8 @@ html {
 }
 
 .bg-squares-about {
+  width: 100%;
+  overflow-x: hidden;
   position: absolute;
   top: 120px;
   left: -100px;
@@ -459,14 +465,12 @@ html {
 }
 @media screen and (max-width: 960px) {
   .bg-squares-about {
-    width: 1441px;
     top: 24px;
     left: 0;
   }
 }
 @media screen and (max-width: 540px) {
   .bg-squares-about {
-    width: 1441px;
     top: -30px;
     left: 0;
   }
