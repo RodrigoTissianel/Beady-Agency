@@ -479,6 +479,7 @@ html {
 }
 
 .title {
+  border: 1px solid blue;
   color: #333333;
   text-align: center;
   transform: translate3d(-236px, 77px, 0);
@@ -497,7 +498,6 @@ html {
 }
 @media screen and (max-width: 540px) {
   .title {
-    border: 1px solid green;
     text-align: start;
     transform: translate3d(0, 0, 0);
   }
@@ -799,6 +799,8 @@ html {
 }
 
 .bg-squares-quote {
+  width: 100%;
+  overflow-x: hidden;
   position: absolute;
   top: -222px;
   left: -50px;
@@ -806,14 +808,12 @@ html {
 }
 @media screen and (max-width: 960px) {
   .bg-squares-quote {
-    width: 1441px;
     top: -245px;
     left: 0;
   }
 }
 @media screen and (max-width: 540px) {
   .bg-squares-quote {
-    width: 1441px;
     top: -190px;
     left: 0;
   }
