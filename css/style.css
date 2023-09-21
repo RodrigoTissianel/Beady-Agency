@@ -452,7 +452,7 @@ html {
   align-self: flex-end;
 }
 
-.bg-squares {
+.svg-squares-about {
   width: 100%;
   transform: scale(3.65);
 }
@@ -479,7 +479,6 @@ html {
 }
 
 .title {
-  border: 1px solid blue;
   color: #333333;
   text-align: center;
   transform: translate3d(-236px, 77px, 0);
@@ -798,6 +797,11 @@ html {
   }
 }
 
+.svg-squares-quote {
+  width: 100%;
+  transform: scale(3.3);
+}
+
 .bg-squares-quote {
   width: 100%;
   overflow-x: hidden;
@@ -814,7 +818,7 @@ html {
 }
 @media screen and (max-width: 540px) {
   .bg-squares-quote {
-    top: -190px;
+    top: -155px;
     left: 0;
   }
 }
