@@ -1913,7 +1913,7 @@ body {
   height: 100vh;
   background-color: #FFFFFF;
   position: relative;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body::-webkit-scrollbar {
