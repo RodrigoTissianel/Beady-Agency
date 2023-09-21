@@ -256,9 +256,6 @@ $gutter: 24px;
 .object-cover{
   object-fit: cover;
 }
-.bg-squares{
-  width: 1441px;
-}
 // ======================================
 // ============ INTRODUCTION ============
 // ======================================
@@ -441,6 +438,11 @@ $gutter: 24px;
 // ======================================
 // =========== SECTION ABOUT ============
 // ======================================
+.bg-squares{
+  width: 100%;
+  transform: scale(3.65);
+}
+
 .bg-squares-about{
   width: 100%;
   overflow-x: hidden;
@@ -476,6 +478,7 @@ $gutter: 24px;
     }
 
     @include responsive(xxs){
+      border: 1px solid green;
       text-align: start;
       transform: translate3d(0,0,0);
     }
